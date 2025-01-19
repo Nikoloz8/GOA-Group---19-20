@@ -1,0 +1,44 @@
+#p1{
+    color: aqua;
+}
+
+#p2{
+    color: red;
+}
+
+#p3{
+    color: blue;
+}
+
+#p4{
+    color: blueviolet;
+}
+
+#p5{
+    color: chartreuse;
+}
+
+.red{
+    color: red;
+}
+
+.brown{
+    color: brown;
+}
+
+.unique{
+    color:darkgreen
+}
+
+.div1{
+    font-size: 500px;
+
+}
+
+.div2{
+    font-size: 25%;
+}
+
+.p6{
+    font-size: 50%;
+}

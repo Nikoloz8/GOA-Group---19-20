@@ -1,0 +1,5 @@
+#lorem1{    /* ამას ჰქვია სელექტორი, selector. ეს არის id selector. არსებობს class და element selector-ებიც */
+    color:royalblue; /* ამ შემთხვევაში color-ს ჰქვია property. */
+    background-color: greenyellow;
+    font-size: large;
+}

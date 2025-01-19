@@ -1,0 +1,46 @@
+<!-- <input> ის დასახელების შესაქმნელად შეგვიძლია გამოვიყენოთ <label></label> tag-ი,
+ რომლის დაკავშირება <input> tag-თან შესაძლებელია id ატრიბუტის დახმარებით. -->
+
+ <!-- საკლასო დავალება: Form-ის დახმარებით შექმენით შესაყვანი ველები, შექმენით Name, LastName, Email და Gender ველები + ამ ველებს მიანიჭეთ label. --> 
+
+ <html>
+    <head>
+        <title>Classwork</title>
+    </head>
+    <body style="color: aqua;">
+        <form>
+        <label for="name" >Enter Your Name:</label>
+        <br>
+        <br>
+        <input id="name" type="text" placeholder="Name">
+        <br>
+        <br>
+        <label for="last-name">Enter Your Last Name:</label>
+        <br>
+        <br>
+        <input id="last-name" type="text" placeholder="Last Name">
+        <br>
+        <br>
+        <label for="email">Enter Your Email:</label>
+        <br>
+        <br>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <br>
+        <label for="gender">Enter Your Gender:</label>
+        <br>
+        <br>
+        <label for="male">Male</label>           
+        <input id="male" type="checkbox">
+        <label for="female">Female</label>           
+        <input id="female" type="checkbox">
+        <label for="optimus-prime">Optimus Prime</label>           
+        <input id="optimus-prime" type="checkbox">
+        <br>
+        </form>
+    </body>
+    </html>
+
+    <!-- გაითვალისწინეთ, რომ id არის უნიკალური და შეიძლება ჰქონდეს მხოლოდ ერთ ელემენტს. -->
+
+    <!-- არსებობს ასეთი ატრიბუტიც "placeholder", რომელსაც შეუძლია input-ში default-ად ტექსტის გამოსახვა. -->

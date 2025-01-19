@@ -1,0 +1,55 @@
+<!-- გვაქვს 3 ტიპის css, ესენია:
+inline css - კოდის გაწერა html დოკუმენტში, style ატრიბუტით.
+internal css - კოდის გაწერა html დოკუმენტში, style თეგით.
+external css - კოდის გაწერა css ფაილში, რომელიც დაუკავშირდება link თეგის დახმარებით html დოკუმენტს. 
+
+ასევე არსებობს inline და block ელემენტები. block ელემენტები საიტზე იკავებენ ელემენტის გასწვრივ მთელს სიგრძეს, ხოლო inline ელემენტები კი მხოლოდ იმ ნაწილს რაც მათ რეალურად სჭირდებათ.
+-->
+
+<!-- 1) საიტზე დაამატეთ 5 განსხვავებული ტექსტისთვის განკუთვნილი თეგი, p, i, b, h1-h7 შემდეგ ამ ხუთი ელემენტიდან ორს შეუცვალეთ ფერი inline css ის გამოყენებით განსხვავებული ფერებით, ხოლოდ 3 ელემენტს შეცვალეთ ფერები internal css ის გამოყენებით განსხვავებული ფერები -->
+
+<!-- 2) საიტზე დაამატეთ სამი განსხვავებული ტექსტის თეგი ამ სამ ტექსტს შეცვალეთ inline css ის გამოყენებით ტექსტის ფერი ტექსტის ბექგრაუნდ ფერი და გაზარდოთ ტექსტი ზომაში, საიტზე დაამატეთ ღილაკი და ორი განსხვავებული ტექსტის თეგი, მათ შეუცვალეთ ფერები ბექგრაუნდ ფერები და გაზარდოთ ტექსტი ზომაში internal css ის გამოყენებით, ასევე დაამატოთ საიტზე კიდევ ერთი ღილაკი და კიდევ ორი განსხვავებული ტექსტი შემდეგ კი შეცვალოთ მათი ტექსტის და ბექგრაუნდის ფერების და ასევე გაზარდოთ ტექსტი ზომაში external css ის გამოყენებით  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./external.css">  <!-- rel(relationship) stylesheet html დოკუმენტს მიანიშნებს, რომ მას უნდა მიუერთდეს css ფაილი.-->
+    <style>
+        h1{
+            color: aqua;
+            background-color: greenyellow;
+            font-size: large;
+        }
+
+        h2{
+            color: blue;
+            background-color: darkslategray;
+            font-size: large;
+        }
+
+        h3{
+            color:darkgoldenrod;
+            background-color: lightgreen;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo odio eos amet reiciendis voluptatem consequuntur non porro, beatae quaerat, possimus error temporibus doloribus a et labore voluptas vel nisi id.</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ab enim ut, quidem quo explicabo quam, cumque hic exercitationem iure maxime molestias fugiat eligendi eius reiciendis vel vero. Illum, vel.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae soluta nihil rerum deserunt voluptates. Quia, eius. Dignissimos tempore tempora suscipit ullam est rerum, animi iste perspiciatis facere, qui voluptatum!</h3>
+        <h4 style="color:blueviolet; background-color: blue; font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni repudiandae quae eos dolorem dolore laudantium exercitationem ab? Voluptatum itaque quia dolore consequatur expedita, vel aliquam amet possimus corrupti voluptates.</h4>
+        <p style="color: red; background-color: cadetblue; font-size: large;"><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita aperiam dolorum natus cumque quos consequatur omnis eum ea totam. Blanditiis, est fuga. Ratione voluptatum quibusdam necessitatibus voluptates excepturi architecto.</i>
+        </p>
+        <p id="lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, magnam tempora possimus vero dignissimos sed aliquid dicta illo itaque repellendus. Veritatis quis voluptas perferendis id ea illum optio, rem earum!</p>
+        <p id="lorem1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ut laborum beatae at ratione quidem? Adipisci inventore, obcaecati rem aliquid autem reiciendis non perferendis ea, accusantium ad praesentium quam numquam.</p>
+        <button>Button</button> 
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+Implicit - ავტომატური
+Expicit - მექანიკური
+< > - შედარების ოპერატორები
+Boolean - მონაცემთა ტიპი, რომელსაც შეიძლება ჰქონდეს მხოლოდ ორი მნიშვნელობა: True and False
+and და or არის ლოგიკური ოპერატორები.
+True and True = True, any other logical operation are false.
+True or True = True, if atleast one of this inputs are True, logical operation are true.
+or ოპერატორი ციფრ 0-ს აღიქვამს false-დ, ხოლო სხვა ნებისმიერს true-დ. ციფრების or ოპერატორით შედარებისას ის აბრუნებს პირველივე true მნიშვნელობას.
+and ოპერატორიც ასევე აღიქვამს 0-ს false-დ, თუმცა იგი აბრუნებს პირველივე ცრუ მნიშნველობას. თუ ორივე მნიშვნელობა true-ა მაშინ იგი დააბრუნებს ბოლო true მნიშვნელობას.
+== - შედარების ოპერატორი. true == true = true. false == false = true, თუ ერთი false-ა მეორე კი true შედეგი იქნება false.

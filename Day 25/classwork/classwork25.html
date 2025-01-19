@@ -1,0 +1,19 @@
+<!-- html საიტზე შეგვიძლია ვიდეოს დამატებაც, ამისთვის არსებობს <video> Tag -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <video controls width="700" height="500">  <!--controls ატრიბუტით video tag-ს ვანიჭებთ ვიდეოს დაწყებისა და დაპაუზების ფუნქციას.-->
+            <source src="./videos/RALLY STATION.mp4" type="video/mp4">
+            <source src="./videos/RALLY STATION.mp4" type="video/webM">
+            <source src="./videos/RALLY STATION.mp4" type="video/OGG"> <!-- video tag-ში ვათავსებთ source tags, რომელშიც ვიყენებთ src ატრიბუტს მისამართის გადასაცემად.--> 
+        </video>                                                       <!--შემდეგ კი ვიყენებთ type ატრიბუტს, რომლის საშუალებითაც ფაილის ტიპსა და გაფართოებას გადავცემთ.-->
+    </body>
+    </html>
+
+<!-- ვიდეოს გაფართოების ძირითადი ტიპებია mp4, OGG, webM -->
+<!-- ბრაუზერები ყველა ვიდეოს ტიპს არ უჭერენ მხარს, შესაბამისად შეგვიძლია გამოვიყენოთ სამი ვიდეოს თეგი და გაფართოების სამივე ტიპი ერთდროულად -->

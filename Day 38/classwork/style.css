@@ -1,0 +1,34 @@
+.underline{
+    color: red;
+    text-decoration: underline;
+}
+
+.overline{
+    color: aqua;
+    text-decoration: overline;
+}
+
+.line-through{
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.underline-overline{
+    color:cyan;
+    text-decoration: underline overline;
+}
+
+.overline-linethrough{
+    color:forestgreen;
+    text-decoration: overline line-through;
+}
+
+.underline-linethrough{
+    color: darkorange;
+    text-decoration: underline line-through;
+}
+
+.overline-underline-throughline{
+    color: firebrick;
+    text-decoration: underline line-through overline;
+}
